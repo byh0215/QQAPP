@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (EtQQ.getText().toString().equals("395238")
                         &&EtPwd.getText().toString().equals("123456")){
-                    Toast.makeText(LoginActivity.this,"登录成功！",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"白悦辉登录成功！",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     Toast.makeText(LoginActivity.this,"登录失败！",Toast.LENGTH_SHORT).show();
